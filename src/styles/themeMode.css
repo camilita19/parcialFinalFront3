@@ -1,0 +1,28 @@
+.dark{
+    background-color: rgb(66, 56, 56);
+    color: rgb(140, 125, 125);
+}
+
+.light {
+    background: whitesmoke;
+}
+.light .buttonTheme{
+ background-color:rgb(92, 78, 78) ; 
+ border: 0px;
+} 
+.dark .buttonTheme{
+    background-color: rgb(185, 167, 167); 
+    border: 0px; 
+}   
+.dark .card{
+ background-color: rgb(244, 237, 229);
+}
+.dark .navBarLink {
+    color: rgb(153, 136, 136) 
+ }
+
+.dark .bttnHeart{
+   color: rgb(99, 88, 88);
+}
+
+

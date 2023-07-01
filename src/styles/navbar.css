@@ -1,0 +1,49 @@
+
+  
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: rgb(104, 91, 91);
+  }
+  
+  .container-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container-nav .nav-dh {
+    color: rgb(104, 91, 91);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  
+  .navBarLink {
+    color: rgb(104, 91, 91);
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight:480;
+  }
+  
+
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+    
+
+ 

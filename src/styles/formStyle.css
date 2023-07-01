@@ -1,0 +1,79 @@
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0,0,0.3);
+    border-radius: 25px;
+    text-align:  center;
+    background-color: whitesmoke;
+    align-items: center;
+    
+ 
+  }
+.imput-form{
+    border-radius: 10px;
+    margin: 3px;
+    padding: 4px 1px
+  }
+  .contact{
+      display: grid;
+      place-items: center;
+      padding: 80px;
+      align-items: center;
+    
+  }
+  .conteiner-form{
+    padding: 2em;
+    border-radius: 30px; 
+    margin-bottom: 10px;  
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: #000;
+   justify-content: center;
+   
+  }
+  .conteiner-form-h2{
+   text-align: center;
+   color: #000;
+   align-items: center;
+  
+  }
+  .input-form{
+    flex-wrap: wrap;
+    align-items: center;
+    width:180px;
+      padding:3px 10px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+      display:inline-block;
+    border-radius: 5px;
+
+   
+  }
+  .boton{
+    width:205px;
+   margin-top: 5px;
+   border-radius: 3px;
+   background-color: #c6cbc6;
+   border: lightslategrey;
+   height: 25px;
+  }  
+  .contac-h2{
+     text-align: center;
+     font-size: 40px;
+     margin-top: 80px;
+    color:  rgb(141, 125, 125);
+  }
+  .contac-p{
+    text-align: center;
+    margin-top: 10px;
+    color:rgb(111, 99, 99);
+  }
+  .err{
+    color: rgb(206, 70, 70);
+   
+  }

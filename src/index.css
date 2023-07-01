@@ -1,0 +1,210 @@
+ *{
+  padding: 0;
+  margin: 0;
+   box-sizing: border-box;
+} 
+
+
+body {
+   font-family: -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  min-height: 100vh;
+}
+body main{
+  flex-grow: 1;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+main {
+  height: 30%;
+}
+.row {
+  align-items: center;
+}
+
+h1 {
+  padding: 3rem;
+  text-align: center;
+  
+}
+
+.nav {
+  display: flex;
+  width: 80vw;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+a,
+h6 {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 6px;
+}
+
+a:hover {
+  color: rgb(136, 136, 136);
+}
+.card {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.6rem 0.6rem 0 0.6rem;
+  border-radius: 10px;
+  border: 2px solid var(--card-border);
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  transition: all 400ms ease;
+  padding: auto;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-3%);
+ 
+}
+.card-grid {
+  height: 50%;
+  padding-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.125rem;
+  text-align: center;
+  margin: 0 auto;
+  margin: 20px;
+}
+.card-img{
+   max-width: 500px;
+   height: 300px;
+
+}
+
+
+.btn-form {
+  margin: 13px;
+  border-radius: 10px;
+ 
+}
+
+.btn-form:hover {
+ 
+  border-radius: 10px;
+
+}
+.contact {
+  display: grid;
+  place-items: center;
+  padding: 80px;
+}
+
+.input-form {
+  border-radius: 10px;
+  margin: 3px;
+  padding: 4px 1px;
+}
+
+ form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 8rem;
+} 
+
+/* .btn-add-fav {
+  border-radius: 30px;
+  margin: 30px;
+} */
+.dentist-Information {
+  text-align: center;
+  padding: 30px;
+}
+.dentist-Information h1{
+  font-size: 50px;
+  color: rgb(153, 136, 136);
+}
+.std{
+  font-weight: bold;
+  color: rgb(106, 93, 93) ;
+}
+.title-home{
+  color: rgb(153, 136, 136);
+  font-size: 42px;
+}
+.listaD{
+  color: rgb(106, 93, 93) ;
+}
+.listaDD{
+  font-size: 23px;
+  margin-top: 20px;
+  text-align: center ;
+
+}
+@media (max-width: 800px) {
+  .card-grid {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+}
+ul{
+  list-style-type: none;
+}
+
+.bttnHeart{
+  height: 35px;
+   width: 35px;
+   margin-bottom: 4px;
+   margin-top: 5px;
+}
+ .favs-h1{
+     color: rgb(153, 136, 136);
+     font-size: 42px;
+ }
+ .buttonTheme{
+   width: 45px;
+   height: 45px;
+   border-radius: 10px;
+   margin-left: 10px;
+   margin-right:40px ;
+ }
+ 
+ .contenedor-footer {
+  background-color: #434141;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.powered {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer_logo {
+  margin-bottom: 20px;
+}
+
+.footer_logo img {
+  width: 100px;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-networks .img {
+  width: 30px;
+  margin: 0 5px;
+}
